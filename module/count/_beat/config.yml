@@ -1,0 +1,4 @@
+- module: count
+  metricsets: ["increment"]
+  enabled: true
+  period: 1s

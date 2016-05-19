@@ -1,0 +1,11 @@
+- name: increment
+  type: group
+  description: >
+    `increment` contains a continuously incrementing counter.
+  fields:
+    - name: counter
+      type: long
+      description: >
+        Incrementing counter.
+
+

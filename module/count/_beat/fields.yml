@@ -1,0 +1,10 @@
+- key: count
+  title: "Count"
+  description: >
+    Count metrics
+  fields:
+    - name: count
+      type: group
+      description: >
+        Count contains count statistics
+      fields:

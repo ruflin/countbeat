@@ -1,0 +1,14 @@
+////
+This file is generated! See scripts/docs_collector.py
+////
+
+[[metricbeat-metricset-count-increment]]
+=== Increment MetricSet
+
+Increments a counter and sends it to elasticsearch.
+
+==== Fields
+
+A description of each field in the MetricSet can be found in the
+<<exported-fields-count,exported fields>> section
+

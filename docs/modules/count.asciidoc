@@ -1,0 +1,29 @@
+////
+This file is generated! See scripts/docs_collector.py
+////
+
+[[metricbeat-module-count]]
+== Count Module
+
+=== Example Configuration
+
+The Count module supports the standard configuration options which can be found
+here (add link). Below is an example of a configuration option:
+
+[source,yaml]
+----
+metricbeat.modules:
+  - module: count
+    metricsets: ["increment"]
+    enabled: true
+    period: 1s
+----
+
+=== MetricSets
+
+The following MetricSets are available:
+
+* <<metricbeat-metricset-count-increment,increment>>
+
+include::count/increment.asciidoc[]
+

@@ -1,0 +1,9 @@
+# Folders
+.idea
+vendor
+build
+
+# Files
+df2beat
+glide.lock
+.DS_Store
